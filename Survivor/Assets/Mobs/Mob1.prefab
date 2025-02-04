@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -6998339056964867859}
   - component: {fileID: -1843601152475115256}
   - component: {fileID: 3340867829011715081}
+  - component: {fileID: 897285423280115283}
   m_Layer: 6
   m_Name: Mob1
   m_TagString: Mobs
@@ -104,10 +105,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-  movementSpeed: 3
-  damage: 1
+  movementSpeed: 1.5
+  damage: 5
   maxHealth: 100
-  IsAttacking: 0
 --- !u!61 &-1843601152475115256
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -142,17 +142,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.023084968, y: -0.1885275}
+  m_Offset: {x: -0.023084968, y: 0.06925492}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.37}
     oldSize: {x: 2, y: 2}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.35362017, y: 0.6537252}
+  m_Size: {x: 0.35362017, y: 0.66142035}
   m_EdgeRadius: 0
 --- !u!95 &3340867829011715081
 Animator:
@@ -176,6 +176,33 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!50 &897285423280115283
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312104882934995908}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1294766051135017199
 GameObject:
   m_ObjectHideFlags: 0
@@ -187,7 +214,7 @@ GameObject:
   - component: {fileID: 7451024187831410137}
   - component: {fileID: 3288489095502572102}
   - component: {fileID: 5189661494815697241}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Hitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -239,11 +266,11 @@ EdgeCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.21}
   m_EdgeRadius: 0
   m_Points:
   - {x: 0.12175585, y: -0.3693599}

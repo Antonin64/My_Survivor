@@ -1,4 +1,6 @@
+using System;
 using JetBrains.Annotations;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Mob_script : MonoBehaviour, IEntity
@@ -7,6 +9,7 @@ public class Mob_script : MonoBehaviour, IEntity
     [SerializeField] private float movementSpeed = 5f;
     [SerializeField] private float damage = 1f;
     [SerializeField] private float maxHealth = 100f;
+    private bool attack;
     private Rigidbody2D player;
 
     public float Damage { get { return damage; } set { damage = value; } }
@@ -16,33 +19,40 @@ public class Mob_script : MonoBehaviour, IEntity
     private float distance;
     private SpriteRenderer spriterenderer;
     private Animator animator;
-    private Collider2D hitbox;
-    public bool IsAttacking;
+    private EdgeCollider2D hitbox;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        player = GameObject.FindWithTag("Player").GetComponent<Rigidbody2D>();
         spriterenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
-        hitbox = GetComponentInChildren<Collider2D>();
+        hitbox = GetComponentInChildren<EdgeCollider2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!IsAttacking && animator.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
+        distance = Vector2.Distance(transform.position, player.transform.position);
+        Vector2 direction = player.transform.position - transform.position;
+        if (!attack && animator.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
         {
             animator.SetBool("IsAttacking", false);
         }
-        distance = Vector2.Distance(transform.position, player.transform.position);
-        if (distance < 0.5 && !IsAttacking)
+        if (distance < 0.75 && !attack)
         {
-            IsAttacking = true;
+            if (direction.x < 0)
+            {
+                spriterenderer.flipX = true;
+            }
+            else
+            {
+                spriterenderer.flipX = false;
+            }
+            attack = true;
             animator.SetBool("IsAttacking", true);
         }
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Move"))
         {
-            Vector2 direction = player.transform.position - transform.position;
+            
             if (direction.x < 0)
             {
                 spriterenderer.flipX = true;
@@ -69,13 +79,21 @@ public class Mob_script : MonoBehaviour, IEntity
     }
     public void AttackCollide()
     {
-        if (hitbox.IsTouching(player.GetComponent<Collider2D>()))
-        {
-            IEntity entity = player.GetComponent<IEntity>();
-            if (entity != null)
-            {
-                entity.TakeDamage(damage);
-            }
-        }
+        hitbox.enabled = true;
+    }
+
+    public void AttackUncollide()
+    {
+        hitbox.enabled = false;
+    }
+
+    public void EndAttack()
+    {
+        attack = false;
+    }
+
+    public void SetTarget(Rigidbody2D target)
+    {
+        player = target;
     }
 }
