@@ -11,10 +11,11 @@ public class Mob_script : MonoBehaviour
     public float Health { get { return health; } set { health = value; } }
     public float MovementSpeed { get { return movementSpeed; } set { movementSpeed = value; } }
     private float distance;
+    private SpriteRenderer spriterenderer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        spriterenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -22,9 +23,12 @@ public class Mob_script : MonoBehaviour
     {
         distance = Vector2.Distance(transform.position, player.transform.position);
         Vector2 direction = player.transform.position - transform.position;
-        if (direction.y < 0)
+        if (direction.x < 0)
         {
-
+            spriterenderer.flipX = true;
+        } else
+        {
+            spriterenderer.flipX = false;
         }
         transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, movementSpeed * Time.deltaTime);
     }
