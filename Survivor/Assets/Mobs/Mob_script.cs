@@ -15,10 +15,12 @@ public class Mob_script : MonoBehaviour, IEntity
     public float MaxHealth { get { return maxHealth; } set { maxHealth = value; } }
     private float distance;
     private SpriteRenderer spriterenderer;
+    private BoxCollider2D collider;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         player = GameObject.FindWithTag("Player").GetComponent<Rigidbody2D>();
+        collider = GetComponent<BoxCollider2D>();
         spriterenderer = GetComponent<SpriteRenderer>();
     }
 
