@@ -21,7 +21,6 @@ public class PlayerController : MonoBehaviour, IEntity
     [SerializeField] private AttackType attackType = AttackType.Arrow;
 
     [SerializeField] private float attackRange = 10f;
-    [SerializeField] private GameObject arrowPrefab;
 
     public float MaxHealth {get {return maxHealth;} set{maxHealth = value;}}
     public float Damage {get {return damage;} set{damage = value;}}
@@ -92,20 +91,6 @@ public class PlayerController : MonoBehaviour, IEntity
             }
             yield return null;
         }
-    }
-
-    void Attack() {
-
-        
-        if (attackType == AttackType.Arrow) {
-            GameObject nearestEnemy = FindNearestEnemy();
-            if (nearestEnemy == null)
-                return;
-            Vector2 attackDir = (nearestEnemy.transform.position - transform.position).normalized;
-            GameObject arrow = Instantiate(arrowPrefab, transform.position, Quaternion.identity);
-            arrow.GetComponent<Arrow>().Initialize(attackDir, damage, playerCollider);
-        }
-        
     }
 
     GameObject FindNearestEnemy()

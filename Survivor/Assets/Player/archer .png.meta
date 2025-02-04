@@ -1,21 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
 guid: dff7a9be207e75d46af941dc6fbe1d64
-=======
-<<<<<<< HEAD
-guid: f722ccc8f60cd374b8a044cc466ed890
-=======
-guid: dff7a9be207e75d46af941dc6fbe1d64
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 8395441083536129268
-    second: archer _0
-  - first:
-      213: -936682559759589306
-    second: archer _1
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,20 +34,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< Updated upstream
     filterMode: 0
-=======
-<<<<<<< HEAD
-    filterMode: 1
-=======
-    filterMode: 0
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -85,24 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<< Updated upstream
     textureCompression: 0
-=======
-<<<<<<< HEAD
-    textureCompression: 1
-=======
-    textureCompression: 0
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,25 +93,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-=======
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -149,38 +100,20 @@ TextureImporter:
       name: archer _0
       rect:
         serializedVersion: 2
-<<<<<<< Updated upstream
         x: 0
-=======
-<<<<<<< HEAD
-        x: 1
-=======
-        x: 0
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
-        y: 0
+        y: 1
         width: 24
-        height: 30
-      alignment: 0
-<<<<<<< Updated upstream
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 1, w: 0}
-=======
-<<<<<<< HEAD
-      pivot: {x: 0, y: 0}
+        height: 28
+      alignment: 9
+      pivot: {x: 0.49999997, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-=======
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 1, w: 0}
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4fc34ec3f29928470800000000000000
-      internalID: 8395441083536129268
+      spriteID: ff8dc014fc879e9439246769412d1f70
+      internalID: 870253063
       vertices: []
       indices: 
       edges: []
@@ -189,35 +122,20 @@ TextureImporter:
       name: archer _1
       rect:
         serializedVersion: 2
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-        x: 28
-        y: 0
-        width: 26
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-=======
->>>>>>> Stashed changes
         x: 29
-        y: 0
+        y: 1
         width: 24
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-<<<<<<< Updated upstream
-=======
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
+        height: 28
+      alignment: 9
+      pivot: {x: 0.49999997, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 640e936bc2c3003f0800000000000000
-      internalID: -936682559759589306
+      spriteID: 55161a3491f3f69479f96d46ffbf16e4
+      internalID: 1424715212
       vertices: []
       indices: 
       edges: []
@@ -226,15 +144,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-<<<<<<< Updated upstream
-    spriteID: 5e97eb03825dee720800000000000000
-=======
-<<<<<<< HEAD
-    spriteID: 
-=======
-    spriteID: 5e97eb03825dee720800000000000000
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
+    spriteID: 7194239023ba21841ab95f005589b2a8
     internalID: 0
     vertices: []
     indices: 
@@ -243,19 +153,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< Updated upstream
     nameFileIdTable:
-      archer _0: 8395441083536129268
-      archer _1: -936682559759589306
-=======
-<<<<<<< HEAD
-    nameFileIdTable: {}
-=======
-    nameFileIdTable:
-      archer _0: 8395441083536129268
-      archer _1: -936682559759589306
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
+      archer _0: 870253063
+      archer _1: 1424715212
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
