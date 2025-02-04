@@ -17,4 +17,16 @@ public class ProjectileWeaponBehaviour : MonoBehaviour
     {
         direction = dir;
     }
+
+    protected virtual void OnTriggerEnter2D(Collider2D col)
+    {
+         if (col.CompareTag("Mobs"))
+        {
+            IEntity entity = col.GetComponent<IEntity>();
+            if (entity != null) {
+                entity.TakeDamage(weaponData.damage);
+                Destroy(gameObject);
+            }
+        }
+    }
 }
