@@ -1,20 +1,24 @@
+using JetBrains.Annotations;
 using UnityEngine;
 
-public class Mob_script : MonoBehaviour
+public class Mob_script : MonoBehaviour, IEntity
 {
     [SerializeField] private float health = 100f;
     [SerializeField] private float movementSpeed = 5f;
     [SerializeField] private float damage = 1f;
-    public Rigidbody2D player;
+    [SerializeField] private float maxHealth = 100f;
+    private Rigidbody2D player;
 
     public float Damage { get { return damage; } set { damage = value; } }
     public float Health { get { return health; } set { health = value; } }
     public float MovementSpeed { get { return movementSpeed; } set { movementSpeed = value; } }
+    public float MaxHealth { get { return maxHealth; } set { maxHealth = value; } }
     private float distance;
     private SpriteRenderer spriterenderer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        player = GameObject.FindWithTag("Player").GetComponent<Rigidbody2D>();
         spriterenderer = GetComponent<SpriteRenderer>();
     }
 
