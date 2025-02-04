@@ -37,13 +37,10 @@ public class PlayerController : MonoBehaviour, IEntity
         }
     }
 
-<<<<<<< Updated upstream
     //public Variables
     [HideInInspector] public Vector2 lastMoveDir;
     [HideInInspector] public Vector3 nearestEnemyPos;
 
-=======
->>>>>>> Stashed changes
 
     //PRIVATE VARIABLES
     Vector2 movDir;
@@ -79,7 +76,6 @@ public class PlayerController : MonoBehaviour, IEntity
         {
             if (canAttack)
             {
-<<<<<<< Updated upstream
                 //Attack();
 
                 //Find nearest enemy
@@ -90,9 +86,6 @@ public class PlayerController : MonoBehaviour, IEntity
                 }
 
                 //Coodlown
-=======
-                Attack();
->>>>>>> Stashed changes
                 canAttack = false;
                 yield return new WaitForSeconds(1f);
                 canAttack = true;
@@ -148,10 +141,7 @@ public class PlayerController : MonoBehaviour, IEntity
             {sr.flipX = false;}
 
         movDir = new Vector2(speedX, speedY);
-<<<<<<< Updated upstream
         lastMoveDir = movDir;
-=======
->>>>>>> Stashed changes
         if (movDir.magnitude > 1) {movDir.Normalize();}
     }
 
