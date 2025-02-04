@@ -37,6 +37,10 @@ public class PlayerController : MonoBehaviour, IEntity
         }
     }
 
+    //public Variables
+    [HideInInspector] public Vector2 lastMoveDir;
+    [HideInInspector] public Vector3 nearestEnemyPos;
+
 
     //PRIVATE VARIABLES
     Vector2 movDir;
@@ -72,7 +76,16 @@ public class PlayerController : MonoBehaviour, IEntity
         {
             if (canAttack)
             {
-                Attack();
+                //Attack();
+
+                //Find nearest enemy
+                GameObject nearestEnemy = FindNearestEnemy();
+                if (nearestEnemy != null)
+                {
+                    nearestEnemyPos = nearestEnemy.transform.position;
+                }
+
+                //Coodlown
                 canAttack = false;
                 yield return new WaitForSeconds(1f);
                 canAttack = true;
@@ -128,6 +141,7 @@ public class PlayerController : MonoBehaviour, IEntity
             {sr.flipX = false;}
 
         movDir = new Vector2(speedX, speedY);
+        lastMoveDir = movDir;
         if (movDir.magnitude > 1) {movDir.Normalize();}
     }
 
