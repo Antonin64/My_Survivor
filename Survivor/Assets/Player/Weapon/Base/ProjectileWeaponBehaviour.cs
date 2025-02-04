@@ -16,6 +16,12 @@ public class ProjectileWeaponBehaviour : MonoBehaviour
     public void DirectionCheck(Vector3 dir)
     {
         direction = dir;
+
+
+        //rotation fix
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        // Apply the rotation to the transform
+        transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
     }
 
     protected virtual void OnTriggerEnter2D(Collider2D col)
