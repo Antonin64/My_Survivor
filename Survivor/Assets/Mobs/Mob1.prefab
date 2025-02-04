@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 354045960060932686}
   - component: {fileID: 7053730689685801523}
-  - component: {fileID: 7623065929223759623}
   - component: {fileID: -6998339056964867859}
   - component: {fileID: -1843601152475115256}
+  - component: {fileID: 3340867829011715081}
   m_Layer: 6
   m_Name: Mob1
   m_TagString: Mobs
@@ -91,28 +91,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &7623065929223759623
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 312104882934995908}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3623ef169c7a5b245873774159bc4fdf, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &-6998339056964867859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,6 +107,7 @@ MonoBehaviour:
   movementSpeed: 3
   damage: 1
   maxHealth: 100
+  IsAttacking: 0
 --- !u!61 &-1843601152475115256
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -175,6 +154,28 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.35362017, y: 0.6460302}
   m_EdgeRadius: 0
+--- !u!95 &3340867829011715081
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312104882934995908}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3623ef169c7a5b245873774159bc4fdf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1294766051135017199
 GameObject:
   m_ObjectHideFlags: 0
@@ -185,6 +186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7451024187831410137}
   - component: {fileID: 3288489095502572102}
+  - component: {fileID: 5189661494815697241}
   m_Layer: 6
   m_Name: Hitbox
   m_TagString: Untagged
@@ -261,3 +263,15 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!114 &5189661494815697241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294766051135017199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b82548c7f3623234a874f6dbbd5522e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

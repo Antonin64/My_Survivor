@@ -15,35 +15,49 @@ public class Mob_script : MonoBehaviour, IEntity
     public float MaxHealth { get { return maxHealth; } set { maxHealth = value; } }
     private float distance;
     private SpriteRenderer spriterenderer;
-    private BoxCollider2D collider;
+    private Animator animator;
+    public bool IsAttacking;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         player = GameObject.FindWithTag("Player").GetComponent<Rigidbody2D>();
-        collider = GetComponent<BoxCollider2D>();
         spriterenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        distance = Vector2.Distance(transform.position, player.transform.position);
-        Vector2 direction = player.transform.position - transform.position;
-        if (direction.x < 0)
+        if (!IsAttacking && animator.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
         {
-            spriterenderer.flipX = true;
-        } else
-        {
-            spriterenderer.flipX = false;
+            animator.SetBool("IsAttacking", false);
         }
-        transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, movementSpeed * Time.deltaTime);
+        distance = Vector2.Distance(transform.position, player.transform.position);
+        if (distance < 0.5 && !IsAttacking)
+        {
+            IsAttacking = true;
+            animator.SetBool("IsAttacking", true);
+        }
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Move"))
+        {
+            Vector2 direction = player.transform.position - transform.position;
+            if (direction.x < 0)
+            {
+                spriterenderer.flipX = true;
+            }
+            else
+            {
+                spriterenderer.flipX = false;
+            }
+            transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, movementSpeed * Time.deltaTime);
+        }
     }
     public void TakeDamage(float damage)
     {
         Health -= damage;
         if (Health <= 0)
         {
-            //TODO Handle mob death
+            animator.SetBool("IsDead", true);
         }
     }
 }
