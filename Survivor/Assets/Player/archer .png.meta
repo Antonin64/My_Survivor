@@ -102,7 +102,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 1
-        width: 24
+        width: 28
         height: 28
       alignment: 9
       pivot: {x: 0.49999997, y: 0}
@@ -124,7 +124,7 @@ TextureImporter:
         serializedVersion: 2
         x: 29
         y: 1
-        width: 24
+        width: 28
         height: 28
       alignment: 9
       pivot: {x: 0.49999997, y: 0}
@@ -136,6 +136,28 @@ TextureImporter:
       bones: []
       spriteID: 55161a3491f3f69479f96d46ffbf16e4
       internalID: 1424715212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer _2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1
+        width: 28
+        height: 28
+      alignment: 9
+      pivot: {x: 0.49999997, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff92ea5c4ac62224ea63144d85cc681f
+      internalID: -50296615
       vertices: []
       indices: 
       edges: []
@@ -156,6 +178,7 @@ TextureImporter:
     nameFileIdTable:
       archer _0: 870253063
       archer _1: 1424715212
+      archer _2: -50296615
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

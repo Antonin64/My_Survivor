@@ -76,7 +76,7 @@ public class PlayerController : MonoBehaviour, IEntity
             if (canAttack)
             {
                 //Attack();
-
+                nearestEnemyPos = Vector3.zero;
                 //Find nearest enemy
                 GameObject nearestEnemy = FindNearestEnemy();
                 if (nearestEnemy != null)
@@ -126,8 +126,8 @@ public class PlayerController : MonoBehaviour, IEntity
             {sr.flipX = false;}
 
         movDir = new Vector2(speedX, speedY);
-        lastMoveDir = movDir;
         if (movDir.magnitude > 1) {movDir.Normalize();}
+        lastMoveDir = movDir;
     }
 
     void Move()
