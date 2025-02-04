@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: dff7a9be207e75d46af941dc6fbe1d64
+=======
+<<<<<<< HEAD
+guid: f722ccc8f60cd374b8a044cc466ed890
+=======
+guid: dff7a9be207e75d46af941dc6fbe1d64
+>>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
+>>>>>>> Stashed changes
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -40,7 +48,15 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
+<<<<<<< Updated upstream
     filterMode: 0
+=======
+<<<<<<< HEAD
+    filterMode: 1
+=======
+    filterMode: 0
+>>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
+>>>>>>> Stashed changes
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -78,7 +94,15 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< Updated upstream
     textureCompression: 0
+=======
+<<<<<<< HEAD
+    textureCompression: 1
+=======
+    textureCompression: 0
+>>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
+>>>>>>> Stashed changes
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -99,6 +123,25 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+>>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
+>>>>>>> Stashed changes
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -106,13 +149,31 @@ TextureImporter:
       name: archer _0
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
         x: 0
+=======
+<<<<<<< HEAD
+        x: 1
+=======
+        x: 0
+>>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
+>>>>>>> Stashed changes
         y: 0
         width: 24
         height: 30
       alignment: 0
+<<<<<<< Updated upstream
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 1, w: 0}
+=======
+<<<<<<< HEAD
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+=======
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 1, w: 0}
+>>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
+>>>>>>> Stashed changes
       customData: 
       outline: []
       physicsShape: []
@@ -128,12 +189,27 @@ TextureImporter:
       name: archer _1
       rect:
         serializedVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        x: 28
+        y: 0
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+=======
+>>>>>>> Stashed changes
         x: 29
         y: 0
         width: 24
         height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
+<<<<<<< Updated upstream
+=======
+>>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
+>>>>>>> Stashed changes
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -150,7 +226,15 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
+<<<<<<< Updated upstream
     spriteID: 5e97eb03825dee720800000000000000
+=======
+<<<<<<< HEAD
+    spriteID: 
+=======
+    spriteID: 5e97eb03825dee720800000000000000
+>>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
+>>>>>>> Stashed changes
     internalID: 0
     vertices: []
     indices: 
@@ -159,9 +243,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< Updated upstream
     nameFileIdTable:
       archer _0: 8395441083536129268
       archer _1: -936682559759589306
+=======
+<<<<<<< HEAD
+    nameFileIdTable: {}
+=======
+    nameFileIdTable:
+      archer _0: 8395441083536129268
+      archer _1: -936682559759589306
+>>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
+>>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

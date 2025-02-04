@@ -112,8 +112,11 @@ MonoBehaviour:
   attackType: 1
   attackRange: 10
   arrowPrefab: {fileID: 7553208366203711426, guid: f424502470a7af7408be77ac9d603cf4, type: 3}
+<<<<<<< Updated upstream
   lastMoveDir: {x: 0, y: 0}
   nearestEnemyPos: {x: 0, y: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!50 &8664724590282594389
 Rigidbody2D:
   serializedVersion: 5
@@ -209,6 +212,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.23164971, y: 0.3}
   m_EdgeRadius: 0
+<<<<<<< Updated upstream
 --- !u!1 &5182460756193744963
 GameObject:
   m_ObjectHideFlags: 0
@@ -255,6 +259,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponStats: {fileID: 11400000, guid: d5f39ef55e5cd6b449045a8b24d34f58, type: 2}
   pc: {fileID: 3971448603878981270}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &8075632945466727746
 GameObject:
   m_ObjectHideFlags: 0
