@@ -22,6 +22,10 @@ public class Mob_script : MonoBehaviour
     {
         distance = Vector2.Distance(transform.position, player.transform.position);
         Vector2 direction = player.transform.position - transform.position;
+        if (direction.y < 0)
+        {
+
+        }
         transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, movementSpeed * Time.deltaTime);
     }
     public void TakeDamage(float damage)
