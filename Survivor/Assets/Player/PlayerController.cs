@@ -1,7 +1,17 @@
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour, IEntity
 {
+    public float Health { get; set; }
+
+    public void TakeDamage(float damage)
+    {
+        Health -= damage;
+        if (Health <= 0)
+        {
+            //TODO Handle player death
+        }
+    }
 
     public float movementSpeed;
     float speedX, speedY;
