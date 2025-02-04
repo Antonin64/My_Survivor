@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5d8c3c86941c6143983d9de8c114ae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
+  health: 10
   movementSpeed: 3
   damage: 1
   maxHealth: 100
@@ -142,7 +142,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.023084968, y: -0.18467999}
+  m_Offset: {x: -0.023084968, y: -0.1885275}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -152,7 +152,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.35362017, y: 0.6460302}
+  m_Size: {x: 0.35362017, y: 0.6537252}
   m_EdgeRadius: 0
 --- !u!95 &3340867829011715081
 Animator:

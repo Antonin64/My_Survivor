@@ -16,6 +16,7 @@ public class Mob_script : MonoBehaviour, IEntity
     private float distance;
     private SpriteRenderer spriterenderer;
     private Animator animator;
+    private Collider2D hitbox;
     public bool IsAttacking;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -23,6 +24,7 @@ public class Mob_script : MonoBehaviour, IEntity
         player = GameObject.FindWithTag("Player").GetComponent<Rigidbody2D>();
         spriterenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        hitbox = GetComponentInChildren<Collider2D>();
     }
 
     // Update is called once per frame
@@ -58,6 +60,22 @@ public class Mob_script : MonoBehaviour, IEntity
         if (Health <= 0)
         {
             animator.SetBool("IsDead", true);
+        }
+    }
+
+    public void Die()
+    {
+        Destroy(gameObject);
+    }
+    public void AttackCollide()
+    {
+        if (hitbox.IsTouching(player.GetComponent<Collider2D>()))
+        {
+            IEntity entity = player.GetComponent<IEntity>();
+            if (entity != null)
+            {
+                entity.TakeDamage(damage);
+            }
         }
     }
 }
