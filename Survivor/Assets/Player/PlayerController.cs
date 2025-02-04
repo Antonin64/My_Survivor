@@ -3,7 +3,17 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour, IEntity
 {
 
-    public float Health { get; set; } = 100f;
+
+    //ENTITY VARIABLES
+    [SerializeField] private float health = 100f;
+    [SerializeField] private float movementSpeed = 5f;
+    [SerializeField] private float maxHealth = 100f;
+    [SerializeField] private float damage = 1f;
+
+    public float MaxHealth {get {return maxHealth;} set{maxHealth = value;}}
+    public float Damage {get {return damage;} set{damage = value;}}
+    public float Health {get {return health;} set{health = value;}}
+    public float MovementSpeed { get{return movementSpeed;} set{movementSpeed = value;}}
 
     public void TakeDamage(float damage)
     {
@@ -14,7 +24,8 @@ public class PlayerController : MonoBehaviour, IEntity
         }
     }
 
-    public float movementSpeed;
+
+    //PRIVATE VARIABLES
     float speedX, speedY;
     Rigidbody2D rb;
     SpriteRenderer sr;
