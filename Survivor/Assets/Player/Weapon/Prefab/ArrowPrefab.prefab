@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 5574269475577529435}
   - component: {fileID: 1749697596240292392}
   - component: {fileID: 5180993763154925533}
-  - component: {fileID: 5403931501895202350}
-  - component: {fileID: -3283613278444849203}
+  - component: {fileID: 1421215933733549387}
   m_Layer: 0
   m_Name: ArrowPrefab
   m_TagString: Untagged
@@ -164,7 +163,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &5403931501895202350
+--- !u!114 &1421215933733549387
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -173,20 +172,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 7553208366203711426}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d31181cb91079d40a41596586ea86ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 22de86fa295ce0d42873933eca193815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-3283613278444849203
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7553208366203711426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3e83ad3308833240b22a9cf452bbcea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
-  damage: 1
+  weaponData: {fileID: 11400000, guid: d5f39ef55e5cd6b449045a8b24d34f58, type: 2}
+  destroyAfterSeconds: 3
