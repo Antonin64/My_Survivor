@@ -4,6 +4,7 @@ public class SpeedUpgrade : MonoBehaviour, IUpgrade
 {
     public float speedIncrease = 2f;
     public Sprite cardDesign;
+    public float dropChance = 30f;
 
     public Sprite CardSprite => cardDesign;
 

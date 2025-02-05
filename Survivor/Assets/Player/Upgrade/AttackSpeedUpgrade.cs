@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class HealthUpgrade : MonoBehaviour, IUpgrade
+public class AttackSpeedUpgrade : MonoBehaviour, IUpgrade
 {
-    public float maxHealthIncrease = 20f;
+    public float attackSpeedIncrease = 0.2f;
     public Sprite cardDesign;
     public float dropChance = 30f;
 
@@ -10,6 +10,6 @@ public class HealthUpgrade : MonoBehaviour, IUpgrade
 
     public void Apply(PlayerController player)
     {
-        player.MaxHealth += maxHealthIncrease;
+        player.AttackSpeed += attackSpeedIncrease;
     }
 }
