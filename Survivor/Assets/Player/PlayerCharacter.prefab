@@ -218,7 +218,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7667368019112546688}
-  - component: {fileID: 7271562344246859075}
+  - component: {fileID: 9200843852891970004}
   m_Layer: 0
   m_Name: SwordController
   m_TagString: Untagged
@@ -241,7 +241,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 364401761120790906}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7271562344246859075
+--- !u!114 &9200843852891970004
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2934423614462542123}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4c9dcaa6f0622ea4a8e96897814cacb0, type: 3}
+  m_Script: {fileID: 11500000, guid: b0e210b2334adc6479524fdcc986c52c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   weaponStats: {fileID: 11400000, guid: 5b036581d9ff4ee42a3218dff57316a8, type: 2}

@@ -17,9 +17,6 @@ public class PlayerController : MonoBehaviour, IEntity
     [SerializeField] private float movementSpeed = 5f;
     [SerializeField] private float maxHealth = 100f;
     [SerializeField] private float damage = 1f;
-
-    [SerializeField] private AttackType attackType = AttackType.Arrow;
-
     [SerializeField] private float attackRange = 10f;
 
     public float MaxHealth {get {return maxHealth;} set{maxHealth = value;}}
@@ -127,7 +124,8 @@ public class PlayerController : MonoBehaviour, IEntity
 
         movDir = new Vector2(speedX, speedY);
         if (movDir.magnitude > 1) {movDir.Normalize();}
-        lastMoveDir = movDir;
+        if (movDir != Vector2.zero)
+            lastMoveDir = movDir;
     }
 
     void Move()
