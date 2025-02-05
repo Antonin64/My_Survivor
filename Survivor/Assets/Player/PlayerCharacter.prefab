@@ -110,8 +110,9 @@ MonoBehaviour:
   movementSpeed: 3.5
   maxHealth: 100
   damage: 1
-  attackType: 1
   attackRange: 10
+  weaponController: {fileID: 6380169811141109481}
+  weaponStats: {fileID: 11400000, guid: d5f39ef55e5cd6b449045a8b24d34f58, type: 2}
   lastMoveDir: {x: 0, y: 0}
   nearestEnemyPos: {x: 0, y: 0, z: 0}
 --- !u!50 &8664724590282594389
@@ -225,7 +226,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7667368019112546688
 Transform:
   m_ObjectHideFlags: 0
