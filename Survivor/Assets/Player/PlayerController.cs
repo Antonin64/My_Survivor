@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections;
+using Unity.VisualScripting;
+using System;
 
 enum AttackType
 {
@@ -18,6 +20,10 @@ public class PlayerController : MonoBehaviour, IEntity
     [SerializeField] private float maxHealth = 100f;
     [SerializeField] private float damage = 1f;
     [SerializeField] private float attackRange = 10f;
+
+    [Header("Weapon")]
+    [SerializeField] private WeaponController weaponController;
+    [SerializeField] private WeaponScriptable weaponStats;
 
     public float MaxHealth {get {return maxHealth;} set{maxHealth = value;}}
     public float Damage {get {return damage;} set{damage = value;}}
@@ -53,6 +59,10 @@ public class PlayerController : MonoBehaviour, IEntity
         sr = GetComponent<SpriteRenderer>();
         playerCollider = GetComponent<Collider2D>();
         StartCoroutine(AttackRoutine());
+        Type controllertype = weaponController.GetType();
+        weaponController = (WeaponController)gameObject.AddComponent(controllertype);
+        weaponController.pc = this;
+        weaponController.weaponStats = weaponStats;
     }
 
     // Update is called once per frame
