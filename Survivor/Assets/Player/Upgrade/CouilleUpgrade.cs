@@ -10,6 +10,7 @@ public class CourageUpgrade : MonoBehaviour, IUpgrade
     public float dropChance = 30f;
 
     public Sprite CardSprite => cardDesign;
+    public float DropChance => dropChance;
 
     public void Apply(PlayerController player)
     {

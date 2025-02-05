@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using Unity.VisualScripting;
+using System.Collections.Generic;
 using System;
 
 enum AttackType
@@ -21,6 +22,20 @@ public class PlayerController : MonoBehaviour, IEntity
     [SerializeField] private float damage = 1f;
     [SerializeField] private float attackRange = 10f;
 
+    //DIFERENTE VARIABLE GERER POUR LES COMPETEENCE
+    [SerializeField] private float armor = 0f;
+    [SerializeField] private float maxMana = 100f;
+    [SerializeField] private float luck = 0f;
+    [SerializeField] private float attackSpeed = 1f;
+    [SerializeField] private int projectileCount = 1;
+    [SerializeField] private float fireDamage = 0f;
+    [SerializeField] private float iceDamage = 0f;
+    [SerializeField] private float poisonDamage = 0f;
+    [SerializeField] private float electricDamage = 0f;
+    [SerializeField] private float courage = 0f;
+    [SerializeField] private float enemyFleeChance = 0f;
+
+
     [Header("Weapon")]
     [SerializeField] private WeaponController weaponController;
     [SerializeField] private WeaponScriptable weaponStats;
@@ -29,6 +44,19 @@ public class PlayerController : MonoBehaviour, IEntity
     public float Damage {get {return damage;} set{damage = value;}}
     public float Health {get {return health;} set{health = value;}}
     public float MovementSpeed { get{return movementSpeed;} set{movementSpeed = value;}}
+
+    public float Armor { get { return armor; } set { armor = value; } }
+    public float MaxMana { get { return maxMana; } set { maxMana = value; } }
+    public float Luck { get { return luck; } set { luck = value; } }
+    public float AttackSpeed { get { return attackSpeed; } set { attackSpeed = value; } }
+    public int ProjectileCount { get { return projectileCount; } set { projectileCount = value; } }
+    public float FireDamage { get { return fireDamage; } set { fireDamage = value; } }
+    public float IceDamage { get { return iceDamage; } set { iceDamage = value; } }
+    public float PoisonDamage { get { return poisonDamage; } set { poisonDamage = value; } }
+    public float ElectricDamage { get { return electricDamage; } set { electricDamage = value; } }
+    public float Courage { get { return courage; } set { courage = value; } }
+    public float EnemyFleeChance { get { return enemyFleeChance; } set { enemyFleeChance = value; } }
+
 
     public void TakeDamage(float damage)
     {
@@ -51,6 +79,31 @@ public class PlayerController : MonoBehaviour, IEntity
     private bool canAttack = true;
     private Collider2D playerCollider;
 
+    //GESTION DES IMUNITES
+    private HashSet<string> immunities = new HashSet<string>();
+
+    public void GrantImmunity(string element)
+    {
+        if (!immunities.Contains(element))
+        {
+            immunities.Add(element);
+            Debug.Log("Le joueur est maintenant immunisé à " + element);
+        }
+    }
+
+    public bool IsImmuneTo(string element)
+    {
+        return immunities.Contains(element);
+    }
+
+    //RENVOIE DES PROJECTILS
+    private bool isMeleeReflectActive = false;
+
+    public void EnableMeleeReflect()
+    {
+        isMeleeReflectActive = true;
+        Debug.Log("Renvoi des balles activé !");
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -64,6 +117,44 @@ public class PlayerController : MonoBehaviour, IEntity
         weaponController.pc = this;
         weaponController.weaponStats = weaponStats;
     }
+
+    //GESTION DES DEGATS ELEMENTAIRE, SWITCH TOUTE LES 3 SECONDE
+    public void StartElementSwap(float swapTime)
+    {
+        StartCoroutine(ElementSwapRoutine(swapTime));
+    }
+
+    private IEnumerator ElementSwapRoutine(float swapTime)
+    {
+        string[] elements = { "Fire", "Ice", "Poison", "Electric" };
+        int index = 0;
+
+        while (true)
+        {
+            ResetElementalDamage();
+
+            switch (elements[index])
+            {
+                case "Fire": fireDamage = 10f; break;
+                case "Ice": iceDamage = 10f; break;
+                case "Poison": poisonDamage = 10f; break;
+                case "Electric": electricDamage = 10f; break;
+            }
+
+            Debug.Log("Élément actif : " + elements[index]);
+            index = (index + 1) % elements.Length;
+            yield return new WaitForSeconds(swapTime);
+        }
+    }
+
+    private void ResetElementalDamage()
+    {
+        fireDamage = 0f;
+        iceDamage = 0f;
+        poisonDamage = 0f;
+        electricDamage = 0f;
+    }
+
 
     // Update is called once per frame
     void Update()
