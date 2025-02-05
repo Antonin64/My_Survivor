@@ -50,4 +50,4 @@ This script is attached to the **prefab** and determines how the weapon interact
   - Right-click in the Project window → `Create → Weapon Stats`.  
 - Example files can be found in:  
   ```plaintext
-  Assets/Player/Weapon/Prefab/
+  Assets/Player/Weapon/Sword/
