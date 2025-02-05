@@ -44,8 +44,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d15c8ef9a0eadf749ac7cb81b1bf005c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 312104882934995908, guid: 742fe36d3e21aa74cac542195fa63b6d, type: 3}
+  level: 1
   minimumSpawnTime: 2
   maximumSpawnTime: 4
   spawnArea: {x: 10, y: 5}
   player: {fileID: 0}
+  mob1: {fileID: 312104882934995908, guid: 742fe36d3e21aa74cac542195fa63b6d, type: 3}
+  mob2: {fileID: 312104882934995908, guid: 6649ad20249e6c54aa0dd8f1aae56d8d, type: 3}
+  mob3: {fileID: 312104882934995908, guid: 8f824a91b9a647649823007e250b00da, type: 3}
+  mob4: {fileID: 312104882934995908, guid: 23b512a0749a842448e4773ebc9c84f3, type: 3}

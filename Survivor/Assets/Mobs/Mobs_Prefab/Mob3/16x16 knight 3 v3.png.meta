@@ -1,124 +1,124 @@
 fileFormatVersion: 2
-guid: 62413c7d66b7e5746baa4080e9274406
+guid: f4a356069d7b45e40be7cf45f7c00d73
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2550392570813875827
-    second: 16x16 knight 2 v3_0
+      213: -2875716919991248420
+    second: 16x16 knight 3 v3_0
   - first:
-      213: -8443512924845593180
-    second: 16x16 knight 2 v3_1
+      213: -4890863095166368020
+    second: 16x16 knight 3 v3_1
   - first:
-      213: -8446181500663545278
-    second: 16x16 knight 2 v3_2
+      213: 6471937892665117321
+    second: 16x16 knight 3 v3_2
   - first:
-      213: 2476982586597048312
-    second: 16x16 knight 2 v3_3
+      213: -6059234447996193456
+    second: 16x16 knight 3 v3_3
   - first:
-      213: -6544636723492054285
-    second: 16x16 knight 2 v3_4
+      213: -511032780892977630
+    second: 16x16 knight 3 v3_4
   - first:
-      213: -7708974824327544857
-    second: 16x16 knight 2 v3_5
+      213: 2140675290695890746
+    second: 16x16 knight 3 v3_5
   - first:
-      213: -5169649468642534692
-    second: 16x16 knight 2 v3_6
+      213: 6490048873340384691
+    second: 16x16 knight 3 v3_6
   - first:
-      213: -5624666450012539719
-    second: 16x16 knight 2 v3_7
+      213: 6266604766838005853
+    second: 16x16 knight 3 v3_7
   - first:
-      213: -45923935931774626
-    second: 16x16 knight 2 v3_8
+      213: -5197467777222971706
+    second: 16x16 knight 3 v3_8
   - first:
-      213: 1741643978318383265
-    second: 16x16 knight 2 v3_9
+      213: -8301348060503544576
+    second: 16x16 knight 3 v3_9
   - first:
-      213: -7067540129181621333
-    second: 16x16 knight 2 v3_10
+      213: 6611559348046714855
+    second: 16x16 knight 3 v3_10
   - first:
-      213: 1080199862778687175
-    second: 16x16 knight 2 v3_11
+      213: 529230543614110900
+    second: 16x16 knight 3 v3_11
   - first:
-      213: 4806188828486472198
-    second: 16x16 knight 2 v3_12
+      213: 7626810441133652074
+    second: 16x16 knight 3 v3_12
   - first:
-      213: -4625665580604289374
-    second: 16x16 knight 2 v3_13
+      213: 5994526892041187309
+    second: 16x16 knight 3 v3_13
   - first:
-      213: 2389406407244877697
-    second: 16x16 knight 2 v3_14
+      213: 766567033006197070
+    second: 16x16 knight 3 v3_14
   - first:
-      213: 3199583170199492582
-    second: 16x16 knight 2 v3_15
+      213: -7417369334675629948
+    second: 16x16 knight 3 v3_15
   - first:
-      213: 6205686449798159954
-    second: 16x16 knight 2 v3_16
+      213: 5821936342090449826
+    second: 16x16 knight 3 v3_16
   - first:
-      213: 951273668504536027
-    second: 16x16 knight 2 v3_17
+      213: -3062978647810533753
+    second: 16x16 knight 3 v3_17
   - first:
-      213: -2909786835822911989
-    second: 16x16 knight 2 v3_18
+      213: 5928503267754458878
+    second: 16x16 knight 3 v3_18
   - first:
-      213: -7686327721433818535
-    second: 16x16 knight 2 v3_19
+      213: -5033678791108601723
+    second: 16x16 knight 3 v3_19
   - first:
-      213: 763599185492285908
-    second: 16x16 knight 2 v3_20
+      213: 5296876438935526546
+    second: 16x16 knight 3 v3_20
   - first:
-      213: 6089874534385962821
-    second: 16x16 knight 2 v3_21
+      213: 3773822764753212675
+    second: 16x16 knight 3 v3_21
   - first:
-      213: -5397589698697332648
-    second: 16x16 knight 2 v3_22
+      213: -5653396263478041961
+    second: 16x16 knight 3 v3_22
   - first:
-      213: -1607540225535502609
-    second: 16x16 knight 2 v3_23
+      213: 6362923452042625473
+    second: 16x16 knight 3 v3_23
   - first:
-      213: -3678978339411802916
-    second: 16x16 knight 2 v3_24
+      213: 3118465564107980944
+    second: 16x16 knight 3 v3_24
   - first:
-      213: -1995995358680475633
-    second: 16x16 knight 2 v3_25
+      213: 4537027278402592774
+    second: 16x16 knight 3 v3_25
   - first:
-      213: -4636141312614996331
-    second: 16x16 knight 2 v3_26
+      213: -6915304999770303835
+    second: 16x16 knight 3 v3_26
   - first:
-      213: -3018537518225737072
-    second: 16x16 knight 2 v3_27
+      213: -7939559688473048351
+    second: 16x16 knight 3 v3_27
   - first:
-      213: -7874860419899051325
-    second: 16x16 knight 2 v3_28
+      213: -2236409086145194531
+    second: 16x16 knight 3 v3_28
   - first:
-      213: 9070965467820485991
-    second: 16x16 knight 2 v3_29
+      213: -8048956761311066047
+    second: 16x16 knight 3 v3_29
   - first:
-      213: 5616152385873082078
-    second: 16x16 knight 2 v3_30
+      213: 3508868750951198233
+    second: 16x16 knight 3 v3_30
   - first:
-      213: -4331591406636048623
-    second: 16x16 knight 2 v3_31
+      213: -2392820565412181209
+    second: 16x16 knight 3 v3_31
   - first:
-      213: 3027596874539261420
-    second: 16x16 knight 2 v3_32
+      213: 6829775901695927184
+    second: 16x16 knight 3 v3_32
   - first:
-      213: -3944654234822446
-    second: 16x16 knight 2 v3_33
+      213: 625029561463100922
+    second: 16x16 knight 3 v3_33
   - first:
-      213: 5478643670684443221
-    second: 16x16 knight 2 v3_34
+      213: 723196988548040926
+    second: 16x16 knight 3 v3_34
   - first:
-      213: 742665618648233790
-    second: 16x16 knight 2 v3_35
+      213: -6616221235932918420
+    second: 16x16 knight 3 v3_35
   - first:
-      213: 2878166099146924590
-    second: 16x16 knight 2 v3_36
+      213: -6017774130129792132
+    second: 16x16 knight 3 v3_36
   - first:
-      213: -7864171550905033626
-    second: 16x16 knight 2 v3_37
+      213: 7277048080953573839
+    second: 16x16 knight 3 v3_37
   - first:
-      213: 1318024560964850487
-    second: 16x16 knight 2 v3_38
+      213: -8258077968419154023
+    second: 16x16 knight 3 v3_38
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -227,749 +227,749 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_0
+      name: 16x16 knight 3 v3_0
       rect:
         serializedVersion: 2
         x: 0
         y: 448
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3760825d780d46320800000000000000
-      internalID: 2550392570813875827
+      spriteID: cd9575d82b66718d0800000000000000
+      internalID: -2875716919991248420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_1
+      name: 16x16 knight 3 v3_1
       rect:
         serializedVersion: 2
         x: 64
         y: 448
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4ada8220bbd92da80800000000000000
-      internalID: -8443512924845593180
+      spriteID: ce68a878de9202cb0800000000000000
+      internalID: -4890863095166368020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_2
+      name: 16x16 knight 3 v3_2
       rect:
         serializedVersion: 2
         x: 128
         y: 448
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2424978cca229ca80800000000000000
-      internalID: -8446181500663545278
+      spriteID: 98ac1bc3931f0d950800000000000000
+      internalID: 6471937892665117321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_3
+      name: 16x16 knight 3 v3_3
       rect:
         serializedVersion: 2
         x: 192
         y: 448
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8fff1f4f982006220800000000000000
-      internalID: 2476982586597048312
+      spriteID: 055706c6f5649eba0800000000000000
+      internalID: -6059234447996193456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_4
+      name: 16x16 knight 3 v3_4
       rect:
         serializedVersion: 2
         x: 256
         y: 448
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3fa97403397cc25a0800000000000000
-      internalID: -6544636723492054285
+      spriteID: 2264b42b46278e8f0800000000000000
+      internalID: -511032780892977630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_5
+      name: 16x16 knight 3 v3_5
       rect:
         serializedVersion: 2
         x: 0
         y: 384
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7eff68dbd38340590800000000000000
-      internalID: -7708974824327544857
+      spriteID: a377269c5d435bd10800000000000000
+      internalID: 2140675290695890746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_6
+      name: 16x16 knight 3 v3_6
       rect:
         serializedVersion: 2
         x: 64
         y: 384
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cda5640c237b148b0800000000000000
-      internalID: -5169649468642534692
+      spriteID: 3b5b0668019411a50800000000000000
+      internalID: 6490048873340384691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_7
+      name: 16x16 knight 3 v3_7
       rect:
         serializedVersion: 2
         x: 128
         y: 384
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b4f1fa1aab21f1b0800000000000000
-      internalID: -5624666450012539719
+      spriteID: d50262365d377f650800000000000000
+      internalID: 6266604766838005853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_8
+      name: 16x16 knight 3 v3_8
       rect:
         serializedVersion: 2
         x: 192
         y: 384
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e5949107c68dc5ff0800000000000000
-      internalID: -45923935931774626
+      spriteID: 6cee51f0892eed7b0800000000000000
+      internalID: -5197467777222971706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_9
+      name: 16x16 knight 3 v3_9
       rect:
         serializedVersion: 2
         x: 256
         y: 384
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a88ddc78ff8b2810800000000000000
-      internalID: 1741643978318383265
+      spriteID: 00deec0ebefabcc80800000000000000
+      internalID: -8301348060503544576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_10
+      name: 16x16 knight 3 v3_10
       rect:
         serializedVersion: 2
         x: 320
         y: 384
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba3af4ca2bd0bed90800000000000000
-      internalID: -7067540129181621333
+      spriteID: 7e7dcbf823af0cb50800000000000000
+      internalID: 6611559348046714855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_11
+      name: 16x16 knight 3 v3_11
       rect:
         serializedVersion: 2
         x: 384
         y: 384
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ce69535d04adfe00800000000000000
-      internalID: 1080199862778687175
+      spriteID: 4bce76c1064385700800000000000000
+      internalID: 529230543614110900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_12
+      name: 16x16 knight 3 v3_12
       rect:
         serializedVersion: 2
         x: 448
         y: 384
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6021365764303b240800000000000000
-      internalID: 4806188828486472198
+      spriteID: a68f20900bfd7d960800000000000000
+      internalID: 7626810441133652074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_13
+      name: 16x16 knight 3 v3_13
       rect:
         serializedVersion: 2
         x: 0
         y: 320
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ae845a89a55ecfb0800000000000000
-      internalID: -4625665580604289374
+      spriteID: def24aca276d03350800000000000000
+      internalID: 5994526892041187309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_14
+      name: 16x16 knight 3 v3_14
       rect:
         serializedVersion: 2
         x: 64
         y: 320
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 18f8fdfb770e82120800000000000000
-      internalID: 2389406407244877697
+      spriteID: e490cd2b7a463aa00800000000000000
+      internalID: 766567033006197070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_15
+      name: 16x16 knight 3 v3_15
       rect:
         serializedVersion: 2
         x: 128
         y: 320
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6e71f01f0f3376c20800000000000000
-      internalID: 3199583170199492582
+      spriteID: 48898c693e5301990800000000000000
+      internalID: -7417369334675629948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_16
+      name: 16x16 knight 3 v3_16
       rect:
         serializedVersion: 2
         x: 0
         y: 256
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 25e9cab62f60f1650800000000000000
-      internalID: 6205686449798159954
+      spriteID: 2a30d37d14cabc050800000000000000
+      internalID: 5821936342090449826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_17
+      name: 16x16 knight 3 v3_17
       rect:
         serializedVersion: 2
         x: 64
         y: 256
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd345678c5a933d00800000000000000
-      internalID: 951273668504536027
+      spriteID: 78695aee52d1e75d0800000000000000
+      internalID: -3062978647810533753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_18
+      name: 16x16 knight 3 v3_18
       rect:
         serializedVersion: 2
         x: 0
         y: 192
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b0edaae1a4c5e97d0800000000000000
-      internalID: -2909786835822911989
+      spriteID: efe3f3cbf46464250800000000000000
+      internalID: 5928503267754458878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_19
+      name: 16x16 knight 3 v3_19
       rect:
         serializedVersion: 2
         x: 64
         y: 192
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95a13b849ada45590800000000000000
-      internalID: -7686327721433818535
+      spriteID: 588dd8e1fc7c42ab0800000000000000
+      internalID: -5033678791108601723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_20
+      name: 16x16 knight 3 v3_20
       rect:
         serializedVersion: 2
         x: 128
         y: 192
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d99b0ad969d89a00800000000000000
-      internalID: 763599185492285908
+      spriteID: 29c53e1ae09428940800000000000000
+      internalID: 5296876438935526546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_21
+      name: 16x16 knight 3 v3_21
       rect:
         serializedVersion: 2
         x: 192
         y: 192
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 54fc5cc9f94938450800000000000000
-      internalID: 6089874534385962821
+      spriteID: 305d56a5fcf4f5430800000000000000
+      internalID: 3773822764753212675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_22
+      name: 16x16 knight 3 v3_22
       rect:
         serializedVersion: 2
         x: 256
         y: 192
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 85876d544c8e715b0800000000000000
-      internalID: -5397589698697332648
+      spriteID: 792eed42d0a1b81b0800000000000000
+      internalID: -5653396263478041961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_23
+      name: 16x16 knight 3 v3_23
       rect:
         serializedVersion: 2
         x: 320
         y: 192
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe61ec69eaed0b9e0800000000000000
-      internalID: -1607540225535502609
+      spriteID: 1c1c00cda25ad4850800000000000000
+      internalID: 6362923452042625473
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_24
+      name: 16x16 knight 3 v3_24
       rect:
         serializedVersion: 2
         x: 0
         y: 128
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cd4c00f31b4a1fcc0800000000000000
-      internalID: -3678978339411802916
+      spriteID: 090c1f088e3074b20800000000000000
+      internalID: 3118465564107980944
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_25
+      name: 16x16 knight 3 v3_25
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f089588ebcccc44e0800000000000000
-      internalID: -1995995358680475633
+      spriteID: 600a1718542c6fe30800000000000000
+      internalID: 4537027278402592774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_26
+      name: 16x16 knight 3 v3_26
       rect:
         serializedVersion: 2
         x: 64
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 596e11d1a0e19afb0800000000000000
-      internalID: -4636141312614996331
+      spriteID: 5a25537ddb6e700a0800000000000000
+      internalID: -6915304999770303835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_27
+      name: 16x16 knight 3 v3_27
       rect:
         serializedVersion: 2
         x: 128
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 09a37fcbe100c16d0800000000000000
-      internalID: -3018537518225737072
+      spriteID: 1ea8d87678401d190800000000000000
+      internalID: -7939559688473048351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_28
+      name: 16x16 knight 3 v3_28
       rect:
         serializedVersion: 2
         x: 192
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c23220cb20e6b290800000000000000
-      internalID: -7874860419899051325
+      spriteID: dd51cdff8cda6f0e0800000000000000
+      internalID: -2236409086145194531
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_29
+      name: 16x16 knight 3 v3_29
       rect:
         serializedVersion: 2
         x: 256
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76d664f680b82ed70800000000000000
-      internalID: 9070965467820485991
+      spriteID: 1484395887c5c4090800000000000000
+      internalID: -8048956761311066047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_30
+      name: 16x16 knight 3 v3_30
       rect:
         serializedVersion: 2
         x: 320
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed67d6cd6d490fd40800000000000000
-      internalID: 5616152385873082078
+      spriteID: 91e2ae7c98102b030800000000000000
+      internalID: 3508868750951198233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_31
+      name: 16x16 knight 3 v3_31
       rect:
         serializedVersion: 2
         x: 384
         y: 64
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 11fd25fb09813e3c0800000000000000
-      internalID: -4331591406636048623
+      spriteID: 72b8b5b9f5efaced0800000000000000
+      internalID: -2392820565412181209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_32
+      name: 16x16 knight 3 v3_32
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ceddef5015f240a20800000000000000
-      internalID: 3027596874539261420
+      spriteID: 093eb143ffc38ce50800000000000000
+      internalID: 6829775901695927184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 16x16 knight 2 v3_33
+      name: 16x16 knight 3 v3_33
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 64
         height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d8529d9b5cf1fff0800000000000000
-      internalID: -3944654234822446
+      spriteID: af55029131d8ca800800000000000000
+      internalID: 625029561463100922
       vertices: []
       indices: 
       edges: []
@@ -978,7 +978,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: bf1f8ecbb26db9c40b341ab624c4ef3d
+    spriteID: 55172b40e361c9e4d82f28e61a07c2b8
     internalID: 0
     vertices: []
     indices: 
@@ -988,40 +988,40 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      16x16 knight 2 v3_0: 2550392570813875827
-      16x16 knight 2 v3_1: -8443512924845593180
-      16x16 knight 2 v3_10: -7067540129181621333
-      16x16 knight 2 v3_11: 1080199862778687175
-      16x16 knight 2 v3_12: 4806188828486472198
-      16x16 knight 2 v3_13: -4625665580604289374
-      16x16 knight 2 v3_14: 2389406407244877697
-      16x16 knight 2 v3_15: 3199583170199492582
-      16x16 knight 2 v3_16: 6205686449798159954
-      16x16 knight 2 v3_17: 951273668504536027
-      16x16 knight 2 v3_18: -2909786835822911989
-      16x16 knight 2 v3_19: -7686327721433818535
-      16x16 knight 2 v3_2: -8446181500663545278
-      16x16 knight 2 v3_20: 763599185492285908
-      16x16 knight 2 v3_21: 6089874534385962821
-      16x16 knight 2 v3_22: -5397589698697332648
-      16x16 knight 2 v3_23: -1607540225535502609
-      16x16 knight 2 v3_24: -3678978339411802916
-      16x16 knight 2 v3_25: -1995995358680475633
-      16x16 knight 2 v3_26: -4636141312614996331
-      16x16 knight 2 v3_27: -3018537518225737072
-      16x16 knight 2 v3_28: -7874860419899051325
-      16x16 knight 2 v3_29: 9070965467820485991
-      16x16 knight 2 v3_3: 2476982586597048312
-      16x16 knight 2 v3_30: 5616152385873082078
-      16x16 knight 2 v3_31: -4331591406636048623
-      16x16 knight 2 v3_32: 3027596874539261420
-      16x16 knight 2 v3_33: -3944654234822446
-      16x16 knight 2 v3_4: -6544636723492054285
-      16x16 knight 2 v3_5: -7708974824327544857
-      16x16 knight 2 v3_6: -5169649468642534692
-      16x16 knight 2 v3_7: -5624666450012539719
-      16x16 knight 2 v3_8: -45923935931774626
-      16x16 knight 2 v3_9: 1741643978318383265
+      16x16 knight 3 v3_0: -2875716919991248420
+      16x16 knight 3 v3_1: -4890863095166368020
+      16x16 knight 3 v3_10: 6611559348046714855
+      16x16 knight 3 v3_11: 529230543614110900
+      16x16 knight 3 v3_12: 7626810441133652074
+      16x16 knight 3 v3_13: 5994526892041187309
+      16x16 knight 3 v3_14: 766567033006197070
+      16x16 knight 3 v3_15: -7417369334675629948
+      16x16 knight 3 v3_16: 5821936342090449826
+      16x16 knight 3 v3_17: -3062978647810533753
+      16x16 knight 3 v3_18: 5928503267754458878
+      16x16 knight 3 v3_19: -5033678791108601723
+      16x16 knight 3 v3_2: 6471937892665117321
+      16x16 knight 3 v3_20: 5296876438935526546
+      16x16 knight 3 v3_21: 3773822764753212675
+      16x16 knight 3 v3_22: -5653396263478041961
+      16x16 knight 3 v3_23: 6362923452042625473
+      16x16 knight 3 v3_24: 3118465564107980944
+      16x16 knight 3 v3_25: 4537027278402592774
+      16x16 knight 3 v3_26: -6915304999770303835
+      16x16 knight 3 v3_27: -7939559688473048351
+      16x16 knight 3 v3_28: -2236409086145194531
+      16x16 knight 3 v3_29: -8048956761311066047
+      16x16 knight 3 v3_3: -6059234447996193456
+      16x16 knight 3 v3_30: 3508868750951198233
+      16x16 knight 3 v3_31: -2392820565412181209
+      16x16 knight 3 v3_32: 6829775901695927184
+      16x16 knight 3 v3_33: 625029561463100922
+      16x16 knight 3 v3_4: -511032780892977630
+      16x16 knight 3 v3_5: 2140675290695890746
+      16x16 knight 3 v3_6: 6490048873340384691
+      16x16 knight 3 v3_7: 6266604766838005853
+      16x16 knight 3 v3_8: -5197467777222971706
+      16x16 knight 3 v3_9: -8301348060503544576
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

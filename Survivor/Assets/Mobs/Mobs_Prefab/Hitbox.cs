@@ -13,7 +13,6 @@ public class Hitbox : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("caca");
             IEntity entity = collision.GetComponent<IEntity>();
             if (entity != null)
             {

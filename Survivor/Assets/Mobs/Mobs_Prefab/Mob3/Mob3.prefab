@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3340867829011715081}
   - component: {fileID: 897285423280115283}
   m_Layer: 6
-  m_Name: Mob1
+  m_Name: Mob3
   m_TagString: Mobs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 2550392570813875827, guid: a25aa35ee1add0d4ca0c188a5b427bab, type: 3}
+  m_Sprite: {fileID: -2875716919991248420, guid: f4a356069d7b45e40be7cf45f7c00d73, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,13 +101,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 312104882934995908}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5d8c3c86941c6143983d9de8c114ae6, type: 3}
+  m_Script: {fileID: 11500000, guid: ff1e741dec669264897c31abf0615fda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
-  movementSpeed: 1.5
-  damage: 5
-  maxHealth: 100
+  health: 175
+  movementSpeed: 1.4
+  damage: 3
+  maxHealth: 175
 --- !u!61 &-1843601152475115256
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -164,7 +164,7 @@ Animator:
   m_GameObject: {fileID: 312104882934995908}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3623ef169c7a5b245873774159bc4fdf, type: 2}
+  m_Controller: {fileID: 9100000, guid: caf56d65fc53c764e9a9fb56e9fc029a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
