@@ -13,7 +13,7 @@ public class UpgradeSelector : MonoBehaviour
         //Remplir une "pool" pondérée selon les probabilités de drop
         foreach (IUpgrade upgrade in allUpgrades)
         {
-            float probability = (upgrade as MonoBehaviour).GetComponent<IUpgrade>().dropChance;
+            float probability = (upgrade as MonoBehaviour).GetComponent<IUpgrade>().DropChance;
 
             for (int i = 0; i < probability; i++) // Plus la chance est haute, plus l'upgrade est ajoutée
             {
