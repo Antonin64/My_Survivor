@@ -23,6 +23,7 @@ public class Mob_script : MonoBehaviour, IEntity
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        DontDestroyOnLoad(this.gameObject);
         spriterenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         hitbox = GetComponentInChildren<EdgeCollider2D>();
@@ -77,6 +78,7 @@ public class Mob_script : MonoBehaviour, IEntity
     public void Die()
     {
         Destroy(gameObject);
+        AchievementManager.totalKills++;
     }
     public void AttackCollide()
     {

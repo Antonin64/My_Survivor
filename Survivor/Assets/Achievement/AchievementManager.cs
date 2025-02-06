@@ -9,21 +9,16 @@ public class AchievementManager : MonoBehaviour
 
     private PlayerController player;
 
-    public UnityEvent OnMobDied;
     public UnityEvent OnPlayerLeveledUp;
     public UnityEvent OnPlayerGetXP;
 
-    int totalKills = 0;
+    public static int totalKills = 0;
 
     void Start()
     {
         player = FindFirstObjectByType<PlayerController>();
 
         LoadAchievements();
-        OnMobDied.AddListener(() =>
-        {
-            totalKills++;
-        });
     }
 
     void Destroy()
