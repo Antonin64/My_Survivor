@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6644944588161500794}
   - component: {fileID: 6644944588161500793}
-  m_Layer: 21
+  m_Layer: 7
   m_Name: Collider T
-  m_TagString: Untagged
+  m_TagString: Doors
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62,7 +62,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -175,9 +175,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6644944589615368674}
   - component: {fileID: 8184703295731925835}
-  m_Layer: 20
+  m_Layer: 7
   m_Name: Collider L
-  m_TagString: Untagged
+  m_TagString: Doors
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -227,7 +227,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -253,9 +253,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6644944589679723018}
   - component: {fileID: 7345354838772413609}
-  m_Layer: 20
+  m_Layer: 7
   m_Name: Collider R
-  m_TagString: Untagged
+  m_TagString: Doors
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -305,7 +305,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0

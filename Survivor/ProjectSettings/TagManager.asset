@@ -4,6 +4,7 @@
 TagManager:
   serializedVersion: 3
   tags:
+  - Doors
   - Mobs
   layers:
   - Default
@@ -13,7 +14,7 @@ TagManager:
   - Water
   - UI
   - Mobs
-  - 
+  - Doors
   - 
   - 
   - 
