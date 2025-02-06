@@ -81,9 +81,9 @@ public class PlayerController : MonoBehaviour, IEntity
     private Collider2D playerCollider;
 
 
-    private double totalXP = 0;
+    public double totalXP = 0;
     private double curXp;
-    private int level = 1;
+    public int level = 1;
 
     public void grantXp(double xp) {
         curXp += xp;
