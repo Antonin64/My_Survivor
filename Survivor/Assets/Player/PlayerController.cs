@@ -100,6 +100,16 @@ public class PlayerController : MonoBehaviour, IEntity
             level++;
             curXp = 0;
             Debug.Log("Level up! Level: " + level);
+        
+            UpgradeUI upgradeUI = FindObjectOfType<UpgradeUI>();
+            if (upgradeUI != null)
+            {
+                upgradeUI.ShowUpgradeChoices();
+            }
+            else
+            {
+                Debug.LogWarning("UpgradeUI non trouvé dans la scène !");
+            }
         }
     }
 
@@ -257,4 +267,15 @@ public class PlayerController : MonoBehaviour, IEntity
     {
         rb.linearVelocity = movDir * movementSpeed;
     }
+
+    public double getCurrentXP()
+    {
+        return curXp;
+    }
+
+    public int getLevel()
+    {
+        return level;
+    }
+
 }
