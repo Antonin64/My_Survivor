@@ -25,6 +25,8 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField]
     private GameObject mob4;
     [SerializeField]
+    private GameObject mob5;
+    [SerializeField]
     private GameObject boss1;
 
     private bool isWorking;
@@ -50,7 +52,7 @@ public class EnemySpawner : MonoBehaviour
             if (timeUntilSpawn < 0)
             {
                 Spawn();
-                if (mobToSpawn == 5)
+                if (mobToSpawn == 6)
                 {
                     isWorking = false;
                 }
@@ -66,7 +68,8 @@ public class EnemySpawner : MonoBehaviour
             2 => Instantiate(mob2, position, Quaternion.identity),
             3 => Instantiate(mob3, position, Quaternion.identity),
             4 => Instantiate(mob4, position, Quaternion.identity),
-            5 => Instantiate(boss1, position, Quaternion.identity),
+            5 => Instantiate(mob5, position, Quaternion.identity),
+            6 => Instantiate(boss1, position, Quaternion.identity),
             _ => Instantiate(mob1, position, Quaternion.identity),
         };
         enemy.GetComponent<Mob_script>().SetTarget(player);
@@ -99,7 +102,7 @@ public class EnemySpawner : MonoBehaviour
         if (level == 1)
         {
             if (timer <=  60 * 3)
-                mobToSpawn = 1;
+                mobToSpawn = 5;
             else if (timer <= 60 * 6)
                 mobToSpawn = 2;
             else if (timer <= 60 * 9)
@@ -119,7 +122,7 @@ public class EnemySpawner : MonoBehaviour
             else if (timer < 60 * 30)
                 mobToSpawn = 4;
             else if (timer >= 60 * 30)
-                mobToSpawn = 5;
+                mobToSpawn = 6;
         }
     }
 }

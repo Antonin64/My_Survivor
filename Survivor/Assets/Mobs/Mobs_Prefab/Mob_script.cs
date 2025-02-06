@@ -2,6 +2,8 @@ using System;
 using JetBrains.Annotations;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UIElements;
+using static UnityEngine.EventSystems.EventTrigger;
 
 public class Mob_script : MonoBehaviour, IEntity
 {
@@ -11,6 +13,12 @@ public class Mob_script : MonoBehaviour, IEntity
     [SerializeField] private float maxHealth = 100f;
     private bool attack;
     private Rigidbody2D player;
+    private Collider2D self_hitbox;
+    [SerializeField]
+    private bool melee;
+    [SerializeField]
+    private GameObject projectile;
+    private float attackTimer;
 
     public float Damage { get { return damage; } set { damage = value; } }
     public float Health { get { return health; } set { health = value; } }
@@ -23,22 +31,31 @@ public class Mob_script : MonoBehaviour, IEntity
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        DontDestroyOnLoad(this.gameObject);
         spriterenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         hitbox = GetComponentInChildren<EdgeCollider2D>();
+        self_hitbox = GetComponent<Collider2D>();
+        attackTimer = UnityEngine.Random.Range(4, 8);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!melee)
+        {
+            attackTimer -= Time.deltaTime;
+        }
         distance = Vector2.Distance(transform.position, player.transform.position);
         Vector2 direction = player.transform.position - transform.position;
         if (!attack && animator.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
         {
             animator.SetBool("IsAttacking", false);
+            if (!melee)
+            {
+                attackTimer = UnityEngine.Random.Range(4, 8);
+            }
         }
-        if (distance < 0.75 && !attack)
+        if ((distance < 0.75 && !attack && melee) || (attackTimer <= 0 && !attack && !melee))
         {
             if (direction.x < 0)
             {
@@ -72,6 +89,7 @@ public class Mob_script : MonoBehaviour, IEntity
         {
             player.GetComponent<PlayerController>().grantXp(10);
             animator.SetBool("IsDead", true);
+            self_hitbox.enabled = false;
         }
     }
 
@@ -83,6 +101,13 @@ public class Mob_script : MonoBehaviour, IEntity
     public void AttackCollide()
     {
         hitbox.enabled = true;
+    }
+
+    public void ShootProjectile()
+    {
+        GameObject projectileInstance = Instantiate(projectile, transform.position, Quaternion.identity);
+        projectileInstance.GetComponent<Mob_Projectile>().SetTarget(player);
+        projectileInstance.GetComponent<Mob_Projectile>().SetDamage(Damage);
     }
 
     public void AttackUncollide()
