@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      imun_ice_0: 1175987639699356376
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

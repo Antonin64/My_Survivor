@@ -3,6 +3,7 @@ using System.Collections;
 using Unity.VisualScripting;
 using System.Collections.Generic;
 using System;
+using Unity.Mathematics;
 
 enum AttackType
 {
@@ -78,6 +79,29 @@ public class PlayerController : MonoBehaviour, IEntity
     SpriteRenderer sr;
     private bool canAttack = true;
     private Collider2D playerCollider;
+
+
+    private double totalXP = 0;
+    private double curXp;
+    private int level = 1;
+
+    public void grantXp(double xp) {
+        curXp += xp;
+        totalXP += xp;
+        CheckLevelUp();
+    }
+
+    public double getXpToNextLevel() {
+        return level * 100f + math.pow(3.35f * 10, level);
+    }
+
+    private void CheckLevelUp() {
+        if (curXp > getXpToNextLevel()) {
+            level++;
+            curXp = 0;
+            Debug.Log("Level up! Level: " + level);
+        }
+    }
 
     //GESTION DES IMUNITES
     private HashSet<string> immunities = new HashSet<string>();
