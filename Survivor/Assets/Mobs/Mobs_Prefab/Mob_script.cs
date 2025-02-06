@@ -69,6 +69,7 @@ public class Mob_script : MonoBehaviour, IEntity
         Health -= damage;
         if (Health <= 0)
         {
+            player.GetComponent<PlayerController>().grantXp(10);
             animator.SetBool("IsDead", true);
         }
     }

@@ -24,13 +24,17 @@ public class EnemySpawner : MonoBehaviour
     private GameObject mob3;
     [SerializeField]
     private GameObject mob4;
+    [SerializeField]
+    private GameObject boss1;
 
+    private bool isWorking;
     private int mobToSpawn;
     private float timer;
     private float timeUntilSpawn;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
+        isWorking = true;
         timer = 0;
         SetTimeUntilSpawn();
     }
@@ -38,13 +42,19 @@ public class EnemySpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        SetMobToSpawn();
-        timer += Time.deltaTime;
-        timeUntilSpawn -= Time.deltaTime;
+        if (isWorking) {
+            SetMobToSpawn();
+            timer += Time.deltaTime;
+            timeUntilSpawn -= Time.deltaTime;
 
-        if (timeUntilSpawn < 0)
-        {
-            Spawn();
+            if (timeUntilSpawn < 0)
+            {
+                Spawn();
+                if (mobToSpawn == 5)
+                {
+                    isWorking = false;
+                }
+            }
         }
     }
     private void Spawn()
@@ -56,6 +66,7 @@ public class EnemySpawner : MonoBehaviour
             2 => Instantiate(mob2, position, Quaternion.identity),
             3 => Instantiate(mob3, position, Quaternion.identity),
             4 => Instantiate(mob4, position, Quaternion.identity),
+            5 => Instantiate(boss1, position, Quaternion.identity),
             _ => Instantiate(mob1, position, Quaternion.identity),
         };
         enemy.GetComponent<Mob_script>().SetTarget(player);
@@ -105,8 +116,10 @@ public class EnemySpawner : MonoBehaviour
                 mobToSpawn = 3;
             else if (timer <= 60 * 27)
                 mobToSpawn = 2;
-            else if (timer <= 60 * 30)
+            else if (timer < 60 * 30)
                 mobToSpawn = 4;
+            else if (timer >= 60 * 30)
+                mobToSpawn = 5;
         }
     }
 }
