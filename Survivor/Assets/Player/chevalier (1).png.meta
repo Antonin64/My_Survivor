@@ -1,24 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
 guid: 4286c4de14b71de489ff135ee6f3311d
-=======
-<<<<<<< HEAD
-guid: a18bbccb867314c41a550985793ab832
-=======
-guid: 4286c4de14b71de489ff135ee6f3311d
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -1061894273780025534
-    second: chevalier (1)_0
-  - first:
-      213: -3553698331969901543
-    second: chevalier (1)_1
-  - first:
-      213: -2903366383565618835
-    second: chevalier (1)_2
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,20 +34,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< Updated upstream
-    filterMode: 0
-=======
-<<<<<<< HEAD
     filterMode: 1
-=======
-    filterMode: 0
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -88,24 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<< Updated upstream
     textureCompression: 0
-=======
-<<<<<<< HEAD
-    textureCompression: 1
-=======
-    textureCompression: 0
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -118,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,94 +93,9 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-=======
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: chevalier (1)_0
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 0
-        width: 28
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 247f15eb8c46341f0800000000000000
-      internalID: -1061894273780025534
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: chevalier (1)_1
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 0
-        width: 28
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 91c2904023abeaec0800000000000000
-      internalID: -3553698331969901543
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: chevalier (1)_2
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 0
-        width: 28
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d61c2c628ab25b7d0800000000000000
-      internalID: -2903366383565618835
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []
@@ -227,20 +109,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
     nameFileIdTable: {}
-=======
->>>>>>> Stashed changes
-    nameFileIdTable:
-      chevalier (1)_0: -1061894273780025534
-      chevalier (1)_1: -3553698331969901543
-      chevalier (1)_2: -2903366383565618835
-<<<<<<< Updated upstream
-=======
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

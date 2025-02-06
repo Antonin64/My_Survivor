@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd2251b7af7c2d34fb7e1923175f7096, type: 3}
   m_Name: ATrueKnight
   m_EditorClassIdentifier: 
-  achievementName: 
-  description: 
-  isUnlocked: 0
+  achievementName: ATrueKnight
+  description: You killed your first 10 Monster, you can now use a sword.
+  isUnlocked: 1
   requiredXp: 0
   requiredLevel: 0
-  requiredKills: 0
+  requiredKills: 10

@@ -22,6 +22,7 @@ public class SwordController : WeaponController
         // Rotate the sword to face the direction of the last movement
         float angle = Mathf.Atan2(pc.lastMoveDir.y, pc.lastMoveDir.x) * Mathf.Rad2Deg;
         spawnedSword.transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle - 90));
+        spawnedSword.GetComponent<MeleeWeaponBehaviour>().applyPlayerController(pc); // Apply the player's stats to the sword
 
         // Start the slashing coroutine
         StartCoroutine(Slash(spawnedSword, pc.lastMoveDir.x));

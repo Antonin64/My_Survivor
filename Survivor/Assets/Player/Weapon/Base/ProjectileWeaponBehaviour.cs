@@ -8,6 +8,43 @@ public class ProjectileWeaponBehaviour : MonoBehaviour
     protected Vector3 direction;
     public float destroyAfterSeconds;
 
+    protected PlayerController pc;
+
+    protected float curDmg;
+    protected float curFireDmg;
+    protected float curIceDmg;
+    protected float curPoisonDmg;
+    protected float curElectricDmg;
+    protected float curSpeed;
+    protected float curAttSpeed;
+    protected float curCount;
+    protected float curPierce;
+
+    public void applyPlayerController(PlayerController pc)
+    {
+        this.pc = pc;
+
+        curDmg = weaponData.damage * pc.Damage;
+        curFireDmg = (weaponData.fireDamage + pc.FireDamage) * pc.Damage;
+        curIceDmg = (weaponData.iceDamage + pc.IceDamage) * pc.Damage;
+        curPoisonDmg = (weaponData.poisonDamage + pc.PoisonDamage) * pc.Damage;
+        curElectricDmg = (weaponData.electricDamage + pc.ElectricDamage) * pc.Damage;
+        curAttSpeed = weaponData.attackSpeed * pc.AttackSpeed;
+        curCount = weaponData.count + pc.ProjectileCount;
+    }
+    
+    void Awake()
+    {
+        curDmg = weaponData.damage;
+        curSpeed = weaponData.speed;
+        curAttSpeed = weaponData.attackSpeed;
+        curCount = weaponData.count;
+        curFireDmg = weaponData.fireDamage;
+        curIceDmg = weaponData.iceDamage;
+        curPoisonDmg = weaponData.poisonDamage;
+        curElectricDmg = weaponData.electricDamage;
+    }
+
     protected virtual void Start()
     {
         Destroy(gameObject, destroyAfterSeconds);
@@ -30,8 +67,10 @@ public class ProjectileWeaponBehaviour : MonoBehaviour
         {
             IEntity entity = col.GetComponent<IEntity>();
             if (entity != null) {
-                entity.TakeDamage(weaponData.damage);
-                Destroy(gameObject);
+                entity.TakeDamage(curDmg);
+                curPierce++;
+                if (curPierce >= weaponData.projectilePierce)
+                    Destroy(gameObject);
             }
         }
     }

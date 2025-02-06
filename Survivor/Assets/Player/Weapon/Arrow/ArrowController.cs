@@ -16,5 +16,6 @@ public class ArrowController : WeaponController
         arrow.transform.position = transform.position;
         Vector2 attackDir = (pc.nearestEnemyPos - transform.position).normalized;
         arrow.GetComponent<ProjectileWeaponBehaviour>().DirectionCheck(attackDir);
+        arrow.GetComponent<ProjectileWeaponBehaviour>().applyPlayerController(pc);
     }
 }

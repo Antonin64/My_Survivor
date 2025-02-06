@@ -1,21 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
 guid: c3384b6d67e7d8c4d82bf48b06338aa1
-=======
-<<<<<<< HEAD
-guid: b16612b2de777da47a64debb15e22048
-=======
-guid: c3384b6d67e7d8c4d82bf48b06338aa1
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 8281395353192332081
-    second: mechant (1)_0
-  - first:
-      213: -7509988147790325846
-    second: mechant (1)_1
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,20 +34,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< Updated upstream
-    filterMode: 0
-=======
-<<<<<<< HEAD
     filterMode: 1
-=======
-    filterMode: 0
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -85,24 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<< Updated upstream
     textureCompression: 0
-=======
-<<<<<<< HEAD
-    textureCompression: 1
-=======
-    textureCompression: 0
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,72 +93,9 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-=======
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: mechant (1)_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 29
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 13b799f623d6de270800000000000000
-      internalID: 8281395353192332081
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mechant (1)_1
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 0
-        width: 27
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aa75097b19927c790800000000000000
-      internalID: -7509988147790325846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []
@@ -202,19 +109,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< Updated upstream
-    nameFileIdTable:
-      mechant (1)_0: 8281395353192332081
-      mechant (1)_1: -7509988147790325846
-=======
-<<<<<<< HEAD
     nameFileIdTable: {}
-=======
-    nameFileIdTable:
-      mechant (1)_0: 8281395353192332081
-      mechant (1)_1: -7509988147790325846
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

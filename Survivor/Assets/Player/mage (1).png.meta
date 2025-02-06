@@ -1,24 +1,7 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
 guid: 04dfe335d7627a24d801fb1028176b40
-=======
-<<<<<<< HEAD
-guid: 3619d0b16be5319488d3217735550cdd
-=======
-guid: 04dfe335d7627a24d801fb1028176b40
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 6273173128346915241
-    second: mage (1)_0
-  - first:
-      213: -2748439301844384284
-    second: mage (1)_1
-  - first:
-      213: -7806929026551646020
-    second: mage (1)_2
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,20 +34,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< Updated upstream
-    filterMode: 0
-=======
-<<<<<<< HEAD
     filterMode: 1
-=======
-    filterMode: 0
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
     aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -88,24 +63,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<< Updated upstream
     textureCompression: 0
-=======
-<<<<<<< HEAD
-    textureCompression: 1
-=======
-    textureCompression: 0
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -118,7 +85,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,94 +93,9 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-=======
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: mage (1)_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 31
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9a1d4a939b9ce0750800000000000000
-      internalID: 6273173128346915241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mage (1)_1
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 0
-        width: 34
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4e5c7de44059bd9d0800000000000000
-      internalID: -2748439301844384284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mage (1)_2
-      rect:
-        serializedVersion: 2
-        x: 63
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cb8f3b9c96738a390800000000000000
-      internalID: -7806929026551646020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     customData: 
     physicsShape: []
@@ -227,20 +109,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
     nameFileIdTable: {}
-=======
->>>>>>> Stashed changes
-    nameFileIdTable:
-      mage (1)_0: 6273173128346915241
-      mage (1)_1: -2748439301844384284
-      mage (1)_2: -7806929026551646020
-<<<<<<< Updated upstream
-=======
->>>>>>> 06e72528b4f201c87950148a88f91da2c2c67d3f
->>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

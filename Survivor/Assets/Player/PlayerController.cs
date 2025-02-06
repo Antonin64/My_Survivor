@@ -20,19 +20,19 @@ public class PlayerController : MonoBehaviour, IEntity
     [SerializeField] private float health = 100f;
     [SerializeField] private float movementSpeed = 5f;
     [SerializeField] private float maxHealth = 100f;
-    [SerializeField] private float damage = 1f;
+    [SerializeField] private float damage = 1f; // damage multiplier for weapon (work on every dmg type)
     [SerializeField] private float attackRange = 10f;
 
     //DIFERENTE VARIABLE GERER POUR LES COMPETEENCE
     [SerializeField] private float armor = 0f;
     [SerializeField] private float maxMana = 100f;
     [SerializeField] private float luck = 0f;
-    [SerializeField] private float attackSpeed = 1f;
-    [SerializeField] private int projectileCount = 1;
-    [SerializeField] private float fireDamage = 0f;
-    [SerializeField] private float iceDamage = 0f;
-    [SerializeField] private float poisonDamage = 0f;
-    [SerializeField] private float electricDamage = 0f;
+    [SerializeField] private float attackSpeed = 1f; // attack speed multiplier for weapon lower = faster
+    [SerializeField] private int projectileCount = 0; //additional projectile
+    [SerializeField] private float fireDamage = 0f; // added fire damage
+    [SerializeField] private float iceDamage = 0f; // added ice damage
+    [SerializeField] private float poisonDamage = 0f; // added poison damage
+    [SerializeField] private float electricDamage = 0f; // added electrical damage
     [SerializeField] private float courage = 0f;
     [SerializeField] private float enemyFleeChance = 0f;
 
