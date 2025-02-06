@@ -108,6 +108,7 @@ MonoBehaviour:
   movementSpeed: 2
   damage: 4
   maxHealth: 5
+  melee: 1
 --- !u!61 &-1843601152475115256
 BoxCollider2D:
   m_ObjectHideFlags: 0
