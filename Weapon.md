@@ -47,7 +47,7 @@ This script is attached to the **prefab** and determines how the weapon interact
 ## 4. The Scriptable Object  
 - Stores the weapon's **damage, speed, range, and other stats**.  
 - You can create a new weapon scriptable object inside **Unity**:  
-  - Right-click in the Project window → `Create → Weapon Stats`.  
+  - Right-click in the Project window → `Create → Weapon`.  
 - Example files can be found in:  
   ```plaintext
   Assets/Player/Weapon/Sword/
