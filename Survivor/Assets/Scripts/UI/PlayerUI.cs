@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class PlayerUI : MonoBehaviour
 {
     public Slider healthBar;
-    public Image healthFill; // Image du remplissage de la barre
+    public Image healthFill;
     public Slider xpBar;
     public Text xpText;
     private PlayerController player;
@@ -12,10 +12,17 @@ public class PlayerUI : MonoBehaviour
     void Start()
     {
         player = FindObjectOfType<PlayerController>();
-        if (healthBar != null && player != null)
+        if (player == null)
         {
-            healthBar.maxValue = player.MaxHealth;
-            healthBar.value = player.Health;
+            Debug.LogError("PlayerController non trouvé !");
+            return;
+        }
+
+        // Initialisation des valeurs de la barre de vie
+        if (healthBar != null)
+        {
+            healthBar.maxValue = 1;
+            healthBar.value = Mathf.Clamp01(player.Health / player.MaxHealth);
         }
 
         UpdateUI();
@@ -31,26 +38,28 @@ public class PlayerUI : MonoBehaviour
         if (healthBar != null && player != null)
         {
             float healthPercent = Mathf.Clamp01(player.Health / player.MaxHealth);
-            healthBar.value = healthPercent; // ✅ Valeur entre 0 et 1
-    
-            // 🎨 Changement de couleur en fonction de la vie
+            healthBar.value = healthPercent;
+
+            // Changement de couleur dynamique de la barre de vie
             if (healthFill != null)
             {
                 if (healthPercent > 0.5f)
-                    healthFill.color = Color.green; // ✅ Vert si vie > 50%
+                    healthFill.color = Color.green;
                 else if (healthPercent > 0.15f)
-                    healthFill.color = new Color(1f, 0.5f, 0f); // ✅ Orange si 15% < vie < 50%
+                    healthFill.color = new Color(1f, 0.5f, 0f);
                 else
-                    healthFill.color = Color.red; // ✅ Rouge si vie < 15%
+                    healthFill.color = Color.red;
             }
         }
-    
+
+        // 🔹 Mise à jour de l'XP et du niveau
         if (xpBar != null && xpText != null && player != null)
         {
             double xpToNextLevel = player.getXpToNextLevel();
-            xpBar.value = (float)(player.getCurrentXP() / xpToNextLevel);
+            float xpRatio = (float)(player.getCurrentXP() / xpToNextLevel);
+
+            xpBar.value = Mathf.Clamp01(xpRatio);
             xpText.text = "Niveau " + player.getLevel() + " | XP : " + player.getCurrentXP() + " / " + xpToNextLevel;
         }
     }
-
 }
