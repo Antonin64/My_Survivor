@@ -91,6 +91,7 @@ public class PlayerController : MonoBehaviour, IEntity
         CheckLevelUp();
     }
 
+
     public double getXpToNextLevel() {
         return level * 100f + math.pow(3.35f * 10, level);
     }

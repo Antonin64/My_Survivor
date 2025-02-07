@@ -51,12 +51,17 @@ public class PlayerUI : MonoBehaviour
                     healthFill.color = Color.red;
             }
         }
-
-        // 🔹 Mise à jour de l'XP et du niveau
+        
+        // Mise à jour de l'XP et du niveau
         if (xpBar != null && xpText != null && player != null)
         {
             double xpToNextLevel = player.getXpToNextLevel();
-            float xpRatio = (float)(player.getCurrentXP() / xpToNextLevel);
+            float xpRatio = 0;
+
+            if (xpToNextLevel > 0)
+                xpRatio = (float)(player.getCurrentXP() / xpToNextLevel);
+
+            Debug.Log("XPBar Update : Ratio = " + xpRatio + " | XP actuelle : " + player.getCurrentXP() + " / " + xpToNextLevel);
 
             xpBar.value = Mathf.Clamp01(xpRatio);
             xpText.text = "Niveau " + player.getLevel() + " | XP : " + player.getCurrentXP() + " / " + xpToNextLevel;
